@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Webpack -->
+    <script src="main.js"></script>
+
+    <!-- CSS -->
+    <style>
+        body { 
+            margin: 0;
+            font-family: 'Kanit', sans-serif;
+            font-size: 16px;
+            overflow: hidden;
+        }
+
+        #map {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #tooltip {
+            position: absolute; 
+            background: black;
+            color: white;
+            z-index: 99;
+            margin: 20px;
+            padding: 20px;
+            min-width: 200px;
+            max-width: 400px;
+            border-radius: 5px;
+            word-wrap: break-word;
+            transition: opacity 250ms ease-in-out;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        #tooltip > div > strong {
+            font-size: 20px;
+        }
+
+        #tooltip > div > span {
+            font-size: 18px;
+        }
+
+        #stats {
+            position: absolute;
+            z-index: 2;
+            top: 10px;
+            left: 10px;
+            background-color: black;
+            color: white;
+            opacity: 0.9;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 18px;
+        }
+
+        #stats > .confirmed > span {
+            color: rgb(255, 140, 0);
+        }
+
+        #stats > .deaths > span {
+            color: rgb(200, 0, 40);
+        }
+
+        #stats > .recov > span {
+            color: rgb(40, 200, 0);
+        }
+
+        #stats > .time {
+            font-size: 0.8em;
+        }
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 | Corona Live Map</title>
+</head>
+<body>
+
+    <div id="stats">
+        <div class="confirmed"><span>0</span> Confirmed cases</div>
+        <div class="deaths"><span>0</span> Deaths</div>
+        <div class="recov"><span>0</span> Recovered</div>
+        <hr>
+        <div class="time"></div>
+    </div>
+    
+    <div id="map"></div>
+
+    <div id="tooltip"></div>
+
+</body>
+</html>
