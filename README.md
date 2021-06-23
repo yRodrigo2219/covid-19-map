@@ -109,7 +109,7 @@ Rodrigo - [@y2219_](https://twitter.com/y2219_) - [Discord](https://discordapp.c
 [issues-shield]: https://img.shields.io/github/issues/yRodrigo2219/covid-19-map.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/yRodrigo2219/covid-19-map/issues
 [license-shield]: https://img.shields.io/github/license/yRodrigo2219/covid-19-map.svg?style=for-the-badge
-[license-url]: https://github.com/yRodrigo2219/covid-19-map/blob/master/LICENSE.txt
+[license-url]: https://github.com/yRodrigo2219/covid-19-map/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/y2219
 [product-screenshot]: readme-assets/screenshot.png
