@@ -87,7 +87,7 @@ The usage is straight forward, you can drag to pan the map, hover to show the ex
 ## Roadmap
 
 Only one thing is meant to change, and it is how the circle expands.
-At the moment its expanding at a power of two until it hits a threshold. With the current state of the pandemic, it needs some adjustments to make it proportional with how many cases are there and show precisely how affected some countries are.
+At the moment its expanding at a power of two until it hits a threshold. With the current state of the pandemic, it needs some adjustments to make it proportional with how many cases are there and precisely reflect how affected some parts of the world are.
 
 
 
